@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCULRA9i_vNaDpCKaHEyR5VKqkbMDXab7k"></script>
+
+    <title>Yuki Kubota</title>
+    <link rel="stylesheet" type="text/css" href="css/faq_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Custom styles for this template go here -->
+    
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <script>
+      $(function() {
+        $('#visitHere').tooltip();
+      });
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+  </head>
+
+  <body class="homePage" data-spy="scroll" data-target=".navbar">
+  
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="logo">
+        <a href="#">Yuki Kubota</a>
+      </div>
+
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+      </div>
+      <nav class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#portfolio">Project One</a></li>
+              <li><a href="#portfolio">Project Two</a></li>
+            </ul>
+          </li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- navbar collapse -->
+    </div><!-- container fluid -->
+  </div><!-- navbar -->
+
+    <div class="container-fluid" id="home">
+      <div id="carousel-homepage" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-homepage" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-homepage" data-slide-to="1"></li>
+          <li data-target="#carousel-homepage" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item slide01 active">
+            <img src="img/portfolioheroimage1.jpg" alt="Portfolio Image">
+            <div class="carousel-caption">
+              <h3>Creative Work Spaces</h3>
+              <p>Having a space to create is vital to the design process</p>
+            </div>
+          </div>
+          <div class="item slide02">
+            <img src="img/portfolioheroimage2.jpg" alt="Portfolio Image">
+            <div class="carousel-caption">
+              <h3>Antique Typewritter</h3>
+              <p>Where it all began</p>
+            </div>
+          </div>
+          <div class="item slide03">
+            <img src="img/portfolioheroimage3.jpg" alt="Porfolio Image">
+            <div class="carousel-caption">
+              <h3>Passionate about Design</h3>
+              <p>Everything we see and feel is design, it is what gives life to inanimate objects.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-homepage" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-homepage" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <h2>Portfolio Concept</h2>
+          <p>For the last 3 years I have been running a private consultancy with a focus on creating custom web solutions for small to medium businesses and enterprises.
+          You can find some of my work at <a href="http://kikumedia.com.au" title="Visit My Business Site" id="visitHere" data-placement="top">kikumedia.com.au</a></p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Learn more by clicking the button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <h2>Project Goals</h2>
+          <p>As I've had decent experience in building websites my aim is to move quickly through the first sections of this course so I can get into ruby on rails as well as learning to use web development tools such as Git, Github etc... effectively and efficiently. </p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Still more information available">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4 col-xs-12">
+          <h2>Course Goals</h2>
+          <p>As I've been working as a freelancer for a number of years now, my course goals would be to consolidate what I've learned and take it to the next level so I can gain employment in an agency. I hope to move into UX design as well as web development and then to project management. </p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="tooltip" data-placement="right" title="Need more info? Click the link">View details &raquo;</a></p>
+        </div>
+      </div>
+    </div> <!-- /container -->
+      
+      <hr>
+
+      <div class="container portfolioContainer" id="portfolio">
+
+        <h2>A sampling of my recent projects:</h2>
+          
+
+
+
+
+
+
+        <div class="row" id="firstRow">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer" id="pItem-0">
+              <div class="portfolioImage" id="0"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer" id="pItem-1">
+              <div class="portfolioImage" id="1"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer" id="pItem-2">
+              <div class="portfolioImage" id="2"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer" id="pItem-3">
+              <div class="portfolioImage" id="3"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row" id="secondRow">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer">
+            <img src="http://placehold.it/600x600" class="img-responsive" alt="Portfolio thumbnail"/>
+            <a href="#" class="portfolioHover"><span>Project Title</span></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer">
+            <img src="http://placehold.it/600x600" class="img-responsive" alt="Portfolio thumbnail"/>
+            <a href="#" class="portfolioHover"><span>Project Title</span></a>
+            </div></div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer">
+            <img src="http://placehold.it/600x600" class="img-responsive" alt="Portfolio thumbnail"/>
+            <a href="#" class="portfolioHover"><span>Project Title</span></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="portfolioItemContainer">
+            <img src="http://placehold.it/600x600" class="img-responsive" alt="Portfolio thumbnail"/>
+            <a href="#" class="portfolioHover"><span>Project Title</span></a>
+            </div>
+          </div>
+        </div> -->
+      </div> <!-- Portfolio Container -->
+  
+      <div class="container aboutContainer" id="about">
+        <div class="header">
+          <h1>About Me</h1>
+        </div>
+        <div class="row">
+          <div class="image col-md-4 col-xs-12">
+            <img src="http://www.fillmurray.com/g/200/300" alt="not a picture of me">
+          </div>
+          <div class="intro col-md-4 col-xs-12">
+            <h2>Introducing...</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum rutrum maximus.</p>
+          </div>
+          <div class="skills column col-md-4 col-xs-12">
+            <h3>My Skills:</h3>
+            <ul id="skill_list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+        </div>
+        <div class="videoSection">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sP5Iyzxc1X0?rel=0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="main_text">
+          <h3>My Story:</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis lectus ullamcorper, consectetur neque eu, tempor purus. Integer commodo ante dolor. Aliquam bibendum pellentesque purus. Suspendisse potenti. Proin id tempor mi, eu finibus ipsum. Proin eu sapien eu ipsum interdum posuere. Aliquam lacinia libero a magna pretium, id ultricies massa efficitur. Nullam mi tortor, scelerisque et ultrices at, feugiat eu purus. Ut vestibulum leo sem. Sed lobortis felis eu augue tempus rhoncus.
+          Mauris sollicitudin dictum eleifend. Fusce vel ligula non nisi varius lobortis. Quisque malesuada nunc nulla, sed blandit velit condimentum id. Quisque in libero massa. Nullam vulputate metus mi, eget ornare odio laoreet nec. Vestibulum efficitur tortor vel arcu dapibus scelerisque. Sed sodales quis lorem nec posuere. In hac habitasse platea dictumst. Cras eget tempus metus. Ut mattis ac turpis sed aliquam. Nulla gravida diam ut nibh consequat finibus. Nam fringilla feugiat ipsum eu pharetra. Suspendisse sit amet semper leo. Vestibulum metus odio, mattis et faucibus at, molestie sit amet sem. Quisque vitae euismod nisi. Aenean tempus scelerisque lorem, eget vulputate nibh euismod quis.
+          </p>
+        </div>
+      </div><!-- About Container -->
+
+      <div class="container faqContainer" id="faq">
+        <div class="row">
+          <h1 class="learn-more">Learn More</h1>
+          <div class="modal-button">
+            <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume/CV</button>
+          </div>
+        </div>
+        
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Yuki Kubota CV</h4>
+                <div class="modal-body">
+                 <iframe src="docs/evalotta_lamm.pdf" id="modalFrame"></iframe>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <table>
+          <tr class="my-row">
+            <th>Services</th>
+            <th>Responsive Website</th>
+            <th>Responsive Website / CMS</th>
+          </tr>
+          <tr class="my-row">
+            <td>HTML5 / CSS3</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr class="my-row">
+            <td>Responsive</td>
+            <td>2 breakpoints</td>
+            <td>3 breakpoints</td>
+          </tr>
+          <tr class="my-row">
+            <td>CMS</td>
+            <td>no</td>
+            <td>Wordpress</td>
+          </tr>
+          <tr class="my-row">
+            <td>Pages</td>
+            <td>4</td>
+            <td>~10</td>
+          </tr>
+          <tr class="my-row">
+            <td>Support</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+        </table>
+        
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">So what is it you do?<span class="glyphicon glyphicon-chevron-down"></span>
+                </a>
+              </h4>
+            </div>
+
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque scelerisque eros id vulputate. Proin sed ante a mauris blandit pharetra nec nec sapien. Donec congue magna vitae dui tempor porttitor. Proin pharetra pretium convallis. Vivamus volutpat dapibus neque, in ullamcorper risus bibendum ac. Duis quis leo accumsan, mollis ipsum ac, laoreet urna. Nulla finibus gravida metus at gravida.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false">What can you build?<span class="glyphicon glyphicon-chevron-down"></span>
+                </a>
+              </h4>
+            </div>
+
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque scelerisque eros id vulputate. Proin sed ante a mauris blandit pharetra nec nec sapien. Donec congue magna vitae dui tempor porttitor. Proin pharetra pretium convallis. Vivamus volutpat dapibus neque, in ullamcorper risus bibendum ac. Duis quis leo accumsan, mollis ipsum ac, laoreet urna. Nulla finibus gravida metus at gravida.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false">Whats the process?<span class="glyphicon glyphicon-chevron-down"></span>
+                </a>
+              </h4>
+            </div>
+
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque scelerisque eros id vulputate. Proin sed ante a mauris blandit pharetra nec nec sapien. Donec congue magna vitae dui tempor porttitor. Proin pharetra pretium convallis. Vivamus volutpat dapibus neque, in ullamcorper risus bibendum ac. Duis quis leo accumsan, mollis ipsum ac, laoreet urna. Nulla finibus gravida metus at gravida.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false">How much time will it take to complete my website?<span class="glyphicon glyphicon-chevron-down"></span>
+                </a>
+              </h4>
+            </div>
+
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque scelerisque eros id vulputate. Proin sed ante a mauris blandit pharetra nec nec sapien. Donec congue magna vitae dui tempor porttitor. Proin pharetra pretium convallis. Vivamus volutpat dapibus neque, in ullamcorper risus bibendum ac. Duis quis leo accumsan, mollis ipsum ac, laoreet urna. Nulla finibus gravida metus at gravida.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false">How much time will it take to complete my website?<span class="glyphicon glyphicon-chevron-down"></span>
+                </a>
+              </h4>
+            </div>
+
+            <div id="collapseFive" class="panel-collapse collapse">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque scelerisque eros id vulputate. Proin sed ante a mauris blandit pharetra nec nec sapien. Donec congue magna vitae dui tempor porttitor. Proin pharetra pretium convallis. Vivamus volutpat dapibus neque, in ullamcorper risus bibendum ac. Duis quis leo accumsan, mollis ipsum ac, laoreet urna. Nulla finibus gravida metus at gravida.
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- FAQ Container -->
+
+      <div class="jumbotron heroImage noMarginBtm">
+        <div class="container" id="contact">
+          <h1>Drop us a line and say hello!</h1>
+          <p id="visible-comment"></p>
+          <form action="/contact" method="post" name="contact">
+            <div class="form-group">
+              <label for="name">Your Name: *</label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name here" required="required">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address: *</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address here" required="required">
+            </div>
+            <div class="form-group">
+              <label for="tel">Phone Number:</label>
+              <input type="tel" name="tel" id="tel" class="form-control" placeholder="Enter your mobile number" maxlength="10">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" class="message-box form-control" style="resize:none" cols="40" rows="10" placeholder="Your messsage here"></textarea>
+              <p class="letterCount">Character count: <span id="charCount"></span></p>
+            </div>
+            <button type="submit" id="sendButton" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="jumbotron contentSection noMarginBtm">
+        <div class="container">
+          <h2>If you're in the area, drop in for a coffee.</h2>
+          <p class="address"><span class="glyphicon glyphicon-map-marker"></span>
+            Melbourne CBD, 3000 <br />
+            Victoria, Australia
+          </p>
+          <p class="phone"><span class="glyphicon glyphicon-earphone"></span>0123 456 7890</p>
+          <p class="email"><a href="mailto:yuki@kikumedia.com.au" class="emailSend"><span class="glyphicon glyphicon-envelope"></span>yuki@kikumedia.com.au</a></p>
+
+        </div>
+      </div>
+
+      <div class="jumbotron noPadding noMarginBtm">
+        <div class="mapSection">
+          <div id="map-canvas" style="height: 300px; width: 1600px"></div>
+<!--           <iframe width="1600" height="300" allowfullscreen frameborder="0" style="border: 0" src="https://www.google.com/maps/embed/v1/place?q=Melbourne,+Victoria,+3000,+Australia&key=AIzaSyA32YbDv8R9CNq8xXvOrpcDct4LCUrfNwc"></iframe> -->
+<!--           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2900.2908914857026!2d144.9666538161373!3d-37.81704733705873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1439343955843" width="1600" height="300" style="border:0" allowfullscreen></iframe> -->
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <p>Good design is obvious. Great design is transparent.</p>
+          <div class="row">
+            <div class="col-md-6">&copy; Copyright 2015</div>
+            <div class="col-md-6">
+              <a href="https://twitter.com/Kubotayuki" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @Kubotayuki</a>
+<div class="fb-like" data-href="http://yuki-kubota-cf-project.bitballoon.com/" data-width="100px" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- 
+    ================================================== -->
+    <!-- Can place script tags with JavaScript files here -->
+    <script type="text/javascript">
+      var $root = $('html, body');
+        $('.navbar-nav a').click(function() {
+          var href = $.attr(this, 'href');
+          $root.animate({
+            scrollTop: $(href).offset().top
+          }, 500, function(){
+            window.location.hash = href;
+          });
+          return false;
+        });
+
+    </script>
+
+  </body>
+</html>

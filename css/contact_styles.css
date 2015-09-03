@@ -1,0 +1,101 @@
+.heroImage {
+  background-image: url("../img/image-header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  max-width: 1920px;
+}
+.heroImage h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  position: relative;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.heroImage a {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  display: block;
+  max-width: 500px;
+  margin: 40px auto;
+  position: relative;
+  font-size: 32px;
+}
+.heroImage a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #428BCA;
+}
+.heroImage a span {
+  margin-right: 10px;
+  top: 5px;
+}
+.contentSection {
+  text-align: center;
+  background-color: #F1F1F1;
+}
+.contentSection h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 40px; 
+}
+.contentSection .container p {
+  font-size: 18px;
+  color: #000;
+}
+.contentSection p.phone span,
+.contentSection p.email span {
+  margin-right: 5px;
+}
+.contentSection p.address span:hover,
+.contentSection p.phone span:hover {
+  color: #337AB7;
+}
+.emailSend {
+  color: #000;
+}
+#contact form {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+.form-group label,
+.form-group p {
+  padding-left: 10px;
+  color: #fff;
+}
+.form-group p.letterCount {
+  font-size: 14px;
+  margin-top: 5px;
+}
+#contact form button {
+  float: right;
+  margin-top: 10px;
+  padding: 6px 20px;
+}
+.mapSection {
+  position: relative;
+  padding-bottom: 25%;
+  height: 0px;
+  overflow: hidden;
+}
+.mapSection iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.noMarginBtm {
+  margin-bottom: 0px;
+}
+#visible-comment {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: #fff;
+}
